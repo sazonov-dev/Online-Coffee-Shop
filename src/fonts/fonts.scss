@@ -1,23 +1,24 @@
-//@font-face {
-//  src:
-//          url(./woff2/TT_Firs_Neue_Regular.woff2) format('woff2'),
-//          url(./woff/TT_Firs_Neue_Regular.woff) format('woff');
-//  font-family: 'TT Firs Neue';
-//  font-weight: 400;
-//}
-//
-//@font-face {
-//  src:
-//          url(./woff2/TT_Firs_Neue_Medium.woff2) format('woff2'),
-//          url(./woff/TT_Firs_Neue_Medium.woff) format('woff');
-//  font-family: 'TT Firs Neue';
-//  font-weight: 500;
-//}
-//
-//@font-face {
-//  src:
-//          url(./woff2/hf-icons-font.woff2) format('woff2'),
-//          url(./woff/hf-icons-font.woff) format('woff');
-//  font-family: 'HF Icons';
-//  font-weight: normal;
-//}
+@font-face {
+  src: url("./ttf/Jost-Regular.ttf") format('truetype');
+  font-family: 'Jost';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("./ttf/Jost-Medium.ttf") format('truetype');
+  font-family: 'Jost';
+  font-weight: 500;
+}
+
+@font-face {
+  src: url("./ttf/Jost-SemiBold.ttf") format('truetype');
+  font-family: 'Jost';
+  font-weight: 600;
+}
+
+@font-face {
+  src: url("./ttf/Jost-ExtraBold.ttf") format('truetype');
+  font-family: 'Jost';
+  font-weight: 800;
+}
+
