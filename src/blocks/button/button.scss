@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+.button {
+  all: unset;
+  cursor: pointer;
+  padding: 15px 30px;
+  border-radius: 63px;
+  background-color: $main-color;
+  color: $bg-white-color;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.25);
+}

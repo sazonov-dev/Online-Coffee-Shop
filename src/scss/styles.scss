@@ -1,4 +1,15 @@
- @use '../vendor/normalize.css';
- @use '../fonts/fonts.scss';
+@use '../vendor/normalize.css';
+@use '../fonts/fonts.scss';
 
- @use '../blocks/main/main.scss';
+@use '../blocks/main/main.scss';
+
+@use '../blocks/header/header.scss';
+@use '../blocks/header/__top/header__top.scss';
+@use '../blocks/header/__logo/header__logo.scss';
+@use '../blocks/header/__nav/header__nav.scss';
+@use '../blocks/header/__nav-item/header__nav-item.scss';
+@use '../blocks/header/__link/header__link.scss';
+@use '../blocks/header/__actions/header__actions.scss';
+@use '../blocks/header/__actions-basket/header__actions-basket.scss';
+
+@use '../blocks/button/button.scss';

@@ -1,0 +1,6 @@
+@use 'mixins' as *;
+
+.header__actions {
+  @include flex-center;
+  gap: 20px;
+}
