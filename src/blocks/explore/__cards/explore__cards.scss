@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+
+.explore__cards {
+  @include flex-center;
+  justify-content: space-between;
+
+}

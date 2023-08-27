@@ -3,6 +3,5 @@
 .header__content {
   @include flex-start;
   justify-content: space-between;
-  padding: 0 100px;
-  margin-top: 154px;
+  padding: 154px 100px 162px 100px;
 }

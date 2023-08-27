@@ -1,0 +1,18 @@
+@use 'mixins' as *;
+
+.explore {
+  position: relative;
+  padding: 150px 100px 268px 100px;
+  text-align: center;
+  background: linear-gradient(135deg, #FFF 0%, #FFF 0%, rgba(243, 244, 245, 0.20) 11.74%, #F3F4F5 27.92%, rgba(243, 244, 245, 0.00) 44.79%, rgba(243, 244, 245, 0.68) 60.42%, #F3F4F5 79.17%, #FFF 100%);
+}
+
+.explore::before {
+  content: "";
+  width: 447px;
+  height: 490px;
+  background-image: url("../../images/explore/coffee.png");
+  background-size: cover;
+  @include position(absolute, 0, null, null, -235px, 1);
+  rotate: 50deg;
+}

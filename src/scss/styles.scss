@@ -25,5 +25,13 @@
 @use '../blocks/header/__content-url/header__content-url.scss';
 @use '../blocks/header/__content-actions/header__content-actions.scss';
 
+@use '../blocks/explore/explore.scss';
+@use '../blocks/explore/__title/explore__title.scss';
+@use '../blocks/explore/__description/explore__description.scss';
+@use '../blocks/explore/__cards/explore__cards.scss';
+@use '../blocks/explore/__item/explore__item.scss';
+@use '../blocks/explore/__item-title/explore__item-title.scss';
+@use '../blocks/explore/__item-description/explore__item-description.scss';
+@use '../blocks/explore/__item-img/explore__item-img.scss';
 
 @use '../blocks/button/button.scss';
