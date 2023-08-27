@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 .main {
-  font-style: $font;
+  font-family: $font;
   font-weight: 400;
   color: $main-color;
 }

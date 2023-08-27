@@ -1,0 +1,9 @@
+@use 'mixins' as *;
+
+.header__content-vector {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  max-width: 523px;
+  @include position(absolute, 107px, 35px, null, null, 1);
+}

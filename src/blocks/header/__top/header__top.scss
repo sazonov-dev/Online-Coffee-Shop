@@ -1,8 +1,6 @@
 @use 'mixins' as *;
 
 .header__top {
-  max-width: 1240px;
-  margin: 0 auto;
   @include flex-center;
-  padding-top: 27px;
+  padding: 27px 100px 0;
 }

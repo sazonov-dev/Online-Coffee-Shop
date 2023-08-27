@@ -1,0 +1,17 @@
+@use 'mixins' as *;
+
+.header__content-image {
+  position: relative;
+  z-index: 0;
+}
+
+.header__content-image::after {
+  content: "";
+  @include position(absolute, 0, 0, null, null, 2);
+  background-image: url("../../../images/header/header-icon.png");
+  background-size: cover;
+  width: 144px;
+  height: 113px;
+}
+
+

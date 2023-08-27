@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+
+.header__content-description {
+  max-width: 597px;
+  @include flex-start-column;
+  gap: 30px;
+}

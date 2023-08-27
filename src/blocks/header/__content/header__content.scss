@@ -1,0 +1,8 @@
+@use 'mixins' as *;
+
+.header__content {
+  @include flex-start;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-top: 154px;
+}

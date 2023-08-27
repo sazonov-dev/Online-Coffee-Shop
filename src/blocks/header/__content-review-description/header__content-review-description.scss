@@ -1,0 +1,9 @@
+@use 'variables' as *;
+
+.header__content-review-description {
+  margin: 0;
+  max-width: 232px;
+  color: $description-color;
+  font-size: 19px;
+  line-height: 26px;
+}

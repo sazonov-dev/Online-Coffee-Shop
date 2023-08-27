@@ -11,5 +11,19 @@
 @use '../blocks/header/__link/header__link.scss';
 @use '../blocks/header/__actions/header__actions.scss';
 @use '../blocks/header/__actions-basket/header__actions-basket.scss';
+@use '../blocks/header/__content/header__content.scss';
+@use '../blocks/header/__content-description/header__content-description.scss';
+@use '../blocks/header/__title/header__title.scss';
+@use '../blocks/header/__description/header__description.scss';
+@use '../blocks/header/__content-img/header__content-img.scss';
+@use '../blocks/header/__content-image/header__content-image.scss';
+@use '../blocks/header/__content-review/header__content-review.scss';
+@use '../blocks/header/__content-vector/header__content-vector.scss';
+@use '../blocks/header/__content-review-stars/header__content-review-stars.scss';
+@use '../blocks/header/__content-star/header__content-star.scss';
+@use '../blocks/header/__content-review-description/header__content-review-description.scss';
+@use '../blocks/header/__content-url/header__content-url.scss';
+@use '../blocks/header/__content-actions/header__content-actions.scss';
+
 
 @use '../blocks/button/button.scss';

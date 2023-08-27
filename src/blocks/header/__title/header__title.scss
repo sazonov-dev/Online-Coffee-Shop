@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+.header__title {
+  font-size: 124px;
+  font-weight: 800;
+  line-height: 140px;
+  color: $main-color;
+  margin: 0;
+}
+
+.header__title::after {
+  content: "";
+  width: 73px;
+  height: 58px;
+  display: inline-block;
+  background-image: url("../../../images/header/header-icon.png");
+  background-size: 73px 58px;
+  margin-left: 25px;
+}

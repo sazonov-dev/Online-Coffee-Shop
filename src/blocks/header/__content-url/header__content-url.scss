@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+.header__content-url {
+  font-size: 18px;
+  color: $main-color;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__content-url:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+.header__content-review {
+  max-width: 280px;
+  box-sizing: border-box;
+  @include position(absolute, null, null, 151px, 44px, 2);
+  @include flex-start-column;
+  padding: 20px 24px;
+  background-color: $bg-white-color;
+  border-radius: 24px;
+  gap: 12px;
+}
