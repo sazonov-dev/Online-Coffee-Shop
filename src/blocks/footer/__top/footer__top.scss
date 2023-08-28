@@ -1,0 +1,6 @@
+@use 'mixins' as *;
+
+.footer__top {
+  @include flex-center;
+  justify-content: space-between;
+}

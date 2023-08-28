@@ -1,0 +1,31 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.footer__top-list-item {
+  list-style-type: none;
+  font-size: 30px;
+  line-height: 44px;
+  color: $description-color;
+  @include flex-center;
+}
+
+.footer__top-list-item::before {
+  content: "";
+  display: inline-block;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  margin-right: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.email::before {
+  background-image: url("../../../images/footer/email.svg");
+}
+
+.phone::before {
+  background-image: url("../../../images/footer/phone.svg");
+}

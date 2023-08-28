@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+
+.footer__bottom-left {
+  max-width: 558px;
+  @include flex-start-column;
+  gap: 30px;
+}

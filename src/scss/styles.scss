@@ -51,5 +51,21 @@
 @use '../blocks/explore/__selling-card-price/explore__selling-card-price.scss';
 @use '../blocks/explore/__selling/explore__selling.scss';
 
+@use '../blocks/footer/__top/footer__top.scss';
+@use '../blocks/footer/__top-left/footer__top-left.scss';
+@use '../blocks/footer/__logo/footer__logo.scss';
+@use '../blocks/footer/__description/footer__description.scss';
+@use '../blocks/footer/__top-right/footer__top-right.scss';
+@use '../blocks/footer/__title/footer__title.scss';
+@use '../blocks/footer/__top-list/footer__top-list.scss';
+@use '../blocks/footer/__top-list-item/footer__top-list-item.scss';
+@use '../blocks/footer/__top-icons/footer__top-icons.scss';
+@use '../blocks/footer/__top-icons-item/footer__top-icons-item.scss';
+@use '../blocks/footer/__bottom/footer__bottom.scss';
+@use '../blocks/footer/__bottom-left/footer__bottom-left.scss';
+@use '../blocks/footer/__button/footer__button.scss';
+@use '../blocks/footer/__bottom-right/footer__bottom-right.scss';
+@use '../blocks/footer/__input/footer__input.scss';
+
 
 @use '../blocks/button/button.scss';

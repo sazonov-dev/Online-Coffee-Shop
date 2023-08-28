@@ -1,0 +1,33 @@
+.footer__top-icons-item {
+  list-style-type: none;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer__top-icons-item::before {
+  padding: 15px;
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.facebook::before {
+  background-image: url("../../../images/footer/facebook.svg");
+}
+
+.twitter::before {
+  background-image: url("../../../images/footer/twitter.svg");
+}
+
+.instagram::before {
+  background-image: url("../../../images/footer/instagram.svg");
+}
+
+.linkedin::before {
+  background-image: url("../../../images/footer/linkedin.svg");
+}

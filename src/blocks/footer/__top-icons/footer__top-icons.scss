@@ -1,0 +1,8 @@
+@use 'mixins' as *;
+
+.footer__top-icons {
+  @include flex-start;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}

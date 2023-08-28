@@ -1,0 +1,8 @@
+@use 'mixins' as *;
+
+.footer__top-list {
+  @include flex-start-column;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
