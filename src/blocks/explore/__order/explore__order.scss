@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+
+.explore__order {
+  @include flex-center;
+  justify-content: space-between;
+  margin-bottom: 170px;
+}

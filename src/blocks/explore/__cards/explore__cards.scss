@@ -2,6 +2,7 @@
 
 .explore__cards {
   @include flex-center;
-  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 190px;
 
 }
