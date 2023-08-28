@@ -1,0 +1,6 @@
+@use 'mixins' as *;
+
+.explore__selling-cards {
+  @include flex-center;
+  gap: 30px;
+}

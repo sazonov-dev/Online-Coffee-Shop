@@ -1,0 +1,12 @@
+@use 'mixins' as *;
+
+.explore__selling-card {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 440px;
+  padding: 40px 30px 35px;
+  @include flex-start-column;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+  box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+}

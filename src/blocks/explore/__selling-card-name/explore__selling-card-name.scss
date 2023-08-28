@@ -1,0 +1,5 @@
+@use 'mixins' as *;
+
+.explore__selling-card-name {
+  @include flex-start-column;
+}

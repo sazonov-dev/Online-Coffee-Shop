@@ -1,0 +1,15 @@
+@use 'mixins' as *;
+
+.explore__selling {
+  position: relative;
+}
+
+.explore__selling:after{
+  content: "";
+  @include position(absolute, -200px, -200px, null, null, 1);
+  width: 285px;
+  height: 313px;
+  background-image: url("../../../images/order/blur-coffee.png");
+  background-size: cover;
+  filter: blur(3.5px);
+}

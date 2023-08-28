@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+
+.explore__selling-card-actions {
+  width: 100%;
+  @include flex-center;
+  justify-content: space-between;
+}

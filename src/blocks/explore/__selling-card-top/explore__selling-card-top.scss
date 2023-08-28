@@ -1,0 +1,6 @@
+@use 'mixins' as *;
+
+.explore__selling-card-top {
+  @include flex-start;
+  gap: 16px;
+}
